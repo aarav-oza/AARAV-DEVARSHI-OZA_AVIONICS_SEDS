@@ -1,0 +1,19 @@
+# Athena's Intern — Avionics Induction Task
+
+A real-time data processing and onboard monitoring system designed to simulate depth-sensing navigation and prevent a ship from running aground. 
+
+## 🚀 Project Overview
+
+The objective of this project is to process incoming time-series depth sensor data recorded at one-second intervals to monitor the sea floor. Because real-world telemetry is inherently erratic, the core challenge involved building a pipeline to clean corrupted data, reduce random signal noise, and visualize the results dynamically.
+
+## 🛠️ Features & Implementation
+
+* **Data Extraction:** Developed a Python backend to extract, parse, and structure time-series depth data from raw sensor logs.
+* **Signal Processing (Noise Reduction):** Implemented data-cleaning techniques and filtering algorithms to eliminate corrupted anomalies and smooth out random sensor noise.
+* **Live Animation:** Built a dynamic, real-time monitoring dashboard using Python visualization libraries that updates the depth-time graph point-by-point every second.
+* **Clean UI/UX:** Styled the visualization with clear indicators, labels, and axes for immediate decision-making.
+
+## 💻 Tech Stack
+
+* **Language:** Python
+* **Libraries:** Matplotlib (Animation & Plotting), NumPy / Pandas (Data Handling) *[Feel free to adjust these based on your actual imports]*
