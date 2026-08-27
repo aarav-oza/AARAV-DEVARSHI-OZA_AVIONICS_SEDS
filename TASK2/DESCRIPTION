@@ -1,0 +1,12 @@
+https://www.tinkercad.com/things/2jMHmITp87U-avionicstask2/editel?returnTo=%2Fthings%2F2jMHmITp87U-avionicstask2&sharecode=WvBIHXKOqZg_5MUDr8-y6zZEp8fDg5GbAzNxaS_eqzE
+
+given above is the link to my tinkercad project
+
+## 🛠️ Hardware Architecture & Implementation
+
+* **State Machine Control:** Programmed the Arduino to function as a finite state machine, efficiently managing transitions between operational modes based on real-time environmental conditions.
+* **Proximity Detection:** Integrated an ultrasonic distance sensor to calculate real-time proximity data and monitor object clearance.
+* **Ambient Light Sensing:** Configured a photoresistor circuit using a voltage divider network to accurately read varying ambient light levels.
+* **Visual Interface:** Utilized an I2C LCD display for clean, bus-efficient status readouts, supplemented by a dedicated LED for immediate visual alerts.
+* **Auditory Feedback:** Incorporated a piezoelectric buzzer into the output pipeline to trigger audible warning signals during critical state changes.
+* **Circuit Cleanliness:** Routed all sensor and output connections through a centralized breadboard to ensure organized wiring, minimize cross-talk, and maintain prototype stability.
